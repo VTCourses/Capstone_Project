@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3de8b8aba",
+  "policyUUID": "de8b8aba",
+  "bucketName": "s3-bucket-image-upload",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger98e07da5",
+  "groupAccess": {}
+}
