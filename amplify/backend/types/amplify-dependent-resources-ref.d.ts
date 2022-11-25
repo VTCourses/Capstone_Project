@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
-        "imagesegmentation618d25f7": {
+        "imagesegmentation81abf468": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "function": {
-        "S3Trigger98e07da5": {
+        "S3Trigger655eb349": {
             "Name": "string",
             "Arn": "string",
             "Region": "string",
@@ -19,7 +19,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "storage": {
-        "s3de8b8aba": {
+        "BucketUpload": {
             "BucketName": "string",
             "Region": "string"
         }

@@ -1,0 +1,14 @@
+{
+  "resourceName": "BucketUpload",
+  "policyUUID": "87a1fdd2",
+  "bucketName": "imagesegmentationc0767f5684274df6983157d29120fc",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger655eb349",
+  "groupAccess": {}
+}

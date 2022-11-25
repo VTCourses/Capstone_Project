@@ -1,6 +1,6 @@
 {
   "auth": {
-    "imagesegmentation618d25f7": {
+    "imagesegmentation81abf468": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -28,20 +28,20 @@
     }
   },
   "function": {
-    "S3Trigger98e07da5": {
+    "S3Trigger655eb349": {
       "service": "Lambda",
       "providerPlugin": "awscloudformation",
       "build": true
     }
   },
   "storage": {
-    "s3de8b8aba": {
+    "BucketUpload": {
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "S3Trigger98e07da5",
+          "resourceName": "S3Trigger655eb349",
           "attributes": [
             "Name",
             "Arn",

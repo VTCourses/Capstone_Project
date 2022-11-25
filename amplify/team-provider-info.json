@@ -1,28 +1,28 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-imagesegmentation-dev-141912-authRole",
-      "UnauthRoleArn": "arn:aws:iam::845176509846:role/amplify-imagesegmentation-dev-141912-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::845176509846:role/amplify-imagesegmentation-dev-141912-authRole",
+      "AuthRoleName": "amplify-imagesegmentation-dev-145459-authRole",
+      "UnauthRoleArn": "arn:aws:iam::845176509846:role/amplify-imagesegmentation-dev-145459-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::845176509846:role/amplify-imagesegmentation-dev-145459-authRole",
       "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-imagesegmentation-dev-141912-deployment",
-      "UnauthRoleName": "amplify-imagesegmentation-dev-141912-unauthRole",
-      "StackName": "amplify-imagesegmentation-dev-141912",
-      "StackId": "arn:aws:cloudformation:us-east-2:845176509846:stack/amplify-imagesegmentation-dev-141912/8e448470-65e3-11ed-be18-0af471e2bf82",
-      "AmplifyAppId": "d2p2txc5eh0who"
+      "DeploymentBucketName": "amplify-imagesegmentation-dev-145459-deployment",
+      "UnauthRoleName": "amplify-imagesegmentation-dev-145459-unauthRole",
+      "StackName": "amplify-imagesegmentation-dev-145459",
+      "StackId": "arn:aws:cloudformation:us-east-2:845176509846:stack/amplify-imagesegmentation-dev-145459/0d0a18b0-6cfb-11ed-8815-02ce2f636658",
+      "AmplifyAppId": "dv725n76m23zx"
     },
     "categories": {
+      "auth": {
+        "imagesegmentation81abf468": {}
+      },
       "function": {
-        "S3Trigger98e07da5": {
-          "deploymentBucketName": "amplify-imagesegmentation-dev-141912-deployment",
-          "s3Key": "amplify-builds/S3Trigger98e07da5-3251416b594b695a6666-build.zip"
+        "S3Trigger655eb349": {
+          "deploymentBucketName": "amplify-imagesegmentation-dev-145459-deployment",
+          "s3Key": "amplify-builds/S3Trigger655eb349-466d4b5062477437727a-build.zip"
         }
       },
       "storage": {
-        "s3de8b8aba": {}
-      },
-      "auth": {
-        "imagesegmentation618d25f7": {}
+        "BucketUpload": {}
       }
     }
   }
