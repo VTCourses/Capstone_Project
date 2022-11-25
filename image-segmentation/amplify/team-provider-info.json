@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-imagesegmentation-dev-145459-authRole",
+      "UnauthRoleArn": "arn:aws:iam::845176509846:role/amplify-imagesegmentation-dev-145459-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::845176509846:role/amplify-imagesegmentation-dev-145459-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-imagesegmentation-dev-145459-deployment",
+      "UnauthRoleName": "amplify-imagesegmentation-dev-145459-unauthRole",
+      "StackName": "amplify-imagesegmentation-dev-145459",
+      "StackId": "arn:aws:cloudformation:us-east-2:845176509846:stack/amplify-imagesegmentation-dev-145459/0d0a18b0-6cfb-11ed-8815-02ce2f636658",
+      "AmplifyAppId": "dv725n76m23zx"
+    },
+    "categories": {
+      "auth": {
+        "imagesegmentation81abf468": {}
+      }
+    }
+  }
+}
