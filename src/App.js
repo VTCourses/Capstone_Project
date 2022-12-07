@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import NavBar from './Components/Navbar';
 import Login from './Components/Login';
 import Upload from './Components/Upload';
-import About from './Components/About';
+import Download from './Components/Download';
 import './App.css';
 
 
@@ -16,7 +16,7 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path='/Login' exact element={<Login />} />
           <Route path='/Upload' exact element={<Upload />} />
-          <Route path='/About' exact element={<About />} />
+          <Route path='/Download' exact element={<Download />} />
       </Routes>
     </div>
 );

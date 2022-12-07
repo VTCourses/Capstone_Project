@@ -1,13 +1,3 @@
-// function Login() {
-//   return (
-//     <div className="Login">
-//       <h1>Login Page</h1>
-//     </div>
-//   );
-// }
-
-// export default Login;
-
 import { Amplify } from 'aws-amplify';
 
 import { withAuthenticator } from '@aws-amplify/ui-react';
